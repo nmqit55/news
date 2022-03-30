@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: darkslategrey;
+    width: 100%;
+    height: 100px;
+}
+.nav{
+    width: 1020px;
+    margin: auto;
+    position: relative;
+}
+.header_top{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(25, 25, 25, 0.86);
+}
+#hotline{
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+#hotline p{
+    color: dimgray;
+}
+#hotline a{
+    color: white;
+    text-decoration: none;
+}
+#mangxahoi{
+    height: 50px;
+    color: dimgray;
+    float: left;
+}
+#mangxahoi p{
+    padding: 0 0 0 329px;
+}
+#mxh_logo{
+    float: right;
+}
+#mxh_logo img{
+    width: 32px;
+    height: 32px;
+    padding: 6px 0;
+}
+#logo{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    clear: both;
+}
+#logo h1{
+    font-size: 60px;
+    margin: 0 10px 0 0;
+    color: white;
+}
+#logo p{
+    background-color: rgba(25, 25, 25, 0.86);
+    color: white;
+    margin: 0 30px 0 15px;
+}
+.menu{
+    float: right;
+    display: block;
+}
+.menu ul li{
+    padding: 16px 0 0 0;
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+.menu ul li a{
+    padding: 8px 10px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    border:dashed 0px ;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    background-color: white;
+    color: darkslategrey;
+}
+.menu ul{
+    height: 100%;
+    padding-inline-start: unset;
+}
+.slide_background{
+     width: 100%;
+     height: 400px;
+     clear: both;
+     background-image: url("imgae/bn_bg.png");
+ }
+.content{
+    width: 100%;
+    height: 365px;
+    clear: both;
+}
+.content1{
+    font-size: 20px;
+    width: 300px;
+    float: left;
+    text-align: justify;
+    font-family: "Times New Roman";
+}
+.content2{
+    font-size: 20px;
+    width: 300px;
+    float: left;
+    padding: 0 57px;
+    text-align: justify;
+    font-family: "Times New Roman";
+}
+.content3{
+    font-size: 20px;
+    width: 300px;
+    float: right;
+    text-align: justify;
+    font-family: "Times New Roman";
+}
+#img_content{
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    border: 0.1px solid rgba(110,99,119,0.31);
+}
+.about_website{
+    width: 100%;
+    height: 300px;
+}
+.about1{
+    font-size: 20px;
+    width: 670px;
+    float: left;
+    font-family: "Times New Roman";
+}
+.feelback{
+
+    font-family: ;
+    font-size: 20px;
+    float: right;
+    width: 300px;
+    font-family: "Times New Roman";
+}
+.feelback a{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    border-top: 2px dimgray solid;
+    clear: both;
+}
+.footer_left{
+    float: left;
+}
+.footer_left a{
+    text-decoration: none;
+}
+.footer_right{
+    float: right;
+}
+.footer_right a{
+    text-decoration: none;
+}
+.slider-container{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu_slide {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu_slide label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    transition: all .3s ease;
+&:hover {
+     background: darkgrey;
+ }
+}
+.slide {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.slide-1 {
+    background-image: url("imgae/5.jpg");
+}
+.slide-2 {
+    background-image: url("imgae/slides/3.jpg");
+}
+.slide-3 {
+    background-image: url("imgae/slides/5.jpg");
+}
